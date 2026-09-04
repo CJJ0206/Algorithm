@@ -1,8 +1,8 @@
-
 """
 FIXME 核心思路（排序 + 固定一数 + 对撞双指针）
     思路是最重要的，代码其实都很简单
 """
+
 def ThreeSum(nums:list[int],target:int) -> int:
     nums.sort() # 需要先排序不然后面不好做
     print(nums)
